@@ -1,0 +1,22 @@
+/*
+situar la imagen a la derecha*/
+img {
+    float: right;
+    margin-left: 10px;
+}
+
+
+/*
+propiedad float: left
+img {
+    float: left;
+    margin-right: 10px;
+}
+*/
+
+/*
+propiedad float: none
+img {
+    float: none;
+}
+*/

@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.caja {
+    width: 100px;
+    height: 100px;
+    border: 4px solid black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.ficha {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: 4px solid black;
+}
+
+#ficha1 {
+    background-color: red;
+}
+
+#ficha2 {
+    background-color: green;
+    bottom: -29px;
+    right: -29px;
+}
+
+#ficha3 {
+    background-color: yellow;
+}
+
+#ficha4 {
+    background-color: blue;
+}
